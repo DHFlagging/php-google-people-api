@@ -1,0 +1,19 @@
+{
+    "name": "dhflagging/php-google-people-api",
+    "description": "This package provides a user friendly way of interacting with Google Contacts via the Google People API.",
+    "type": "library",
+    "require": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joel Birch",
+            "email": "joel@d-hflagging.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RapidWeb\\GooglePeopleAPI\\": "./src/"
+        }
+    }
+}
